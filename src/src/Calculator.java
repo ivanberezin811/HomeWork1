@@ -18,7 +18,7 @@ public class Calculator {
 
         System.out.println("Sum of " + randomNumber1 + " and " + randomNumber2 + " = " + Plus.plus(randomNumber1, randomNumber2));
         System.out.println("Minus of " + randomNumber1 + " and " + randomNumber2 + " = " + Minus.minus(randomNumber1, randomNumber2));
-        if(randomNumber2 == 0){
+        if(randomNumber2 == 0){//check if divider is 0
             System.out.println("Divider can not be 0");
         } else {
             System.out.println("Divide of " + randomNumber1 + " and " + randomNumber2 + " = " + Divide.divide(randomNumber1, randomNumber2));
